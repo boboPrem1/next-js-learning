@@ -13,13 +13,13 @@ async function listInvoices() {
   return data.rows;
 }
 
-async function allInvoices() {
-  const data = await client.sql`
-    SELECT * FROM invoices;
-  `;
+// async function allInvoices() {
+//   const data = await client.sql`
+//     SELECT * FROM invoices;
+//   `;
 
-  return data.rows;
-}
+//   return data.rows;
+// }
 
 export async function GET() {
   // return Response.json({

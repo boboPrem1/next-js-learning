@@ -2,12 +2,9 @@
 
 import {
   MagnifyingGlassIcon,
-  TrashIcon,
-  XMarkIcon,
 } from "@heroicons/react/24/outline";
 import { useSearchParams, usePathname, useRouter } from "next/navigation";
 import { useState } from "react";
-import { Button } from "@/app/ui/button";
 import { useDebouncedCallback } from "use-debounce";
 
 export default function Search({ placeholder }: { placeholder: string }) {
